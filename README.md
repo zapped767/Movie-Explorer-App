@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# 🎬 Movie Explorer - Discover Your Favorite Films
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Vercel Deployment](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel&style=for-the-badge)](https://movie-explorer-app-iota.vercel.app/)
+[![React](https://img.shields.io/badge/React-18.2-%2361DAFB?logo=react)](https://reactjs.org)
+[![Material UI](https://img.shields.io/badge/Material_UI-5.14-%230081CB?logo=mui)](https://mui.com)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Available Scripts
+A feature-rich movie discovery platform built with React and powered by the TMDb API. Users can explore trending films, search for movies, save favorites, and enjoy a seamless viewing experience across devices.
 
-In the project directory, you can run:
+🔗 **Live Demo:** [https://movie-explorer-app-iota.vercel.app/](https://movie-explorer-app-iota.vercel.app/)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **🔐 User Authentication**  
+  Secure login/signup with form validation and error handling
+- **🔍 Intelligent Search**  
+  Find movies by title with real-time API results
+- **💖 Favorites System**  
+  Save/remove movies with local storage persistence
+- **🎨 Theme Customization**  
+  Toggle between light/dark modes
+- **📱 Responsive Design**  
+  Fully optimized for mobile, tablet, and desktop
+- **🎥 Rich Movie Details**  
+  View trailers, cast info, ratings, and more
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Frontend:**
+- React 18 (Hooks + Context API)
+- Material-UI 5 (Styled Components)
+- React Router 6
+- Axios for HTTP requests
 
-### `npm run build`
+**Backend Services:**
+- TMDb API (Movie database)
+- Vercel Serverless Functions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Dev Tools:**
+- GitHub Actions (CI/CD)
+- Vercel Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##  Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- Node.js ≥ 16.x
+- npm
+- TMDb API key ([Get one here](https://www.themoviedb.org/settings/api))
 
-### `npm run eject`
+### Installation
+```bash
+# Clone repository
+git clone https://github.com/your-username/movie-explorer.git
+cd movie-explorer
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Install dependencies
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Set up environment variables
+echo "REACT_APP_TMDB_API_KEY=your_api_key_here" > .env
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Run development server
+npm start
