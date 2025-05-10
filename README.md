@@ -51,14 +51,11 @@ A feature-rich movie discovery platform built with React and powered by the TMDb
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/your-username/movie-explorer.git
+git clone https://github.com/zapped767/Movie-Explorer-App.git
 cd movie-explorer
 
 # Install dependencies
 npm install
-
-# Set up environment variables
-echo "REACT_APP_TMDB_API_KEY=your_api_key_here" > .env
 
 # Run development server
 npm start
